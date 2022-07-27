@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+}
+.localisation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #eaeaea;
+  padding: 18px 0px 18px 0px;
+  p {
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 19px;
+  }
+  i{
+    padding-top: 3px;
+  }
+}
+.description_ohmyfood{
+    background-color: #f6f6f6;
+    text-align: center;
+    h1{
+        margin: 0px;
+        font-size: 28px;
+        font-weight: 700;
+        padding: 45px 40px 10px 40px;
+    }
+    p{
+        margin: 0px;
+        font-size: 19px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding: 5px 10px 30px 10px;
+    }
+}
