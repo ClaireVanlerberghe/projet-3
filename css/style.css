@@ -7,10 +7,10 @@ body {
   padding: 18px 30px 18px 30px;
   border-radius: 30px;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   margin-bottom: 60px;
-  background-color: #FF79DA;
+  background: linear-gradient(to left top, #9356DC, #FF79DA);
   color: white;
 }
 
@@ -53,6 +53,50 @@ body {
   padding: 5px 10px 30px 10px;
 }
 
+.menu_fonctionnement h2 {
+  margin: 45px 0px 25px 18px;
+}
+.menu_fonctionnement .menu_etape {
+  margin: 20px 22px 25px 25px;
+}
+.menu_fonctionnement p {
+  margin: 29px -13px 0px 0px;
+  background-color: #9356DC;
+  padding: 4px 8px 4px 8px;
+  border-radius: 50px;
+  color: white;
+  font-size: 13px;
+  float: left;
+}
+.menu_fonctionnement i {
+  color: #7e7e7e;
+  padding: 2px 25px 0px 0px;
+}
+.menu_fonctionnement h3 {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0px;
+}
+.menu_fonctionnement .menu {
+  display: flex;
+  flex-direction: row;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 30px 0px 30px 40px;
+}
+.menu_fonctionnement .menu_3 {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5edff;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 30px 0px 30px 40px;
+}
+.menu_fonctionnement .menu_3 i {
+  color: #9356dc;
+}
+
 header {
   display: flex;
   width: 100%;
@@ -62,7 +106,7 @@ header {
   margin-bottom: 15px;
 }
 header img {
-  width: 145px;
+  width: 190px;
 }
 
 /*# sourceMappingURL=style.css.map */
