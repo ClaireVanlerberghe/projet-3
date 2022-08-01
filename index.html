@@ -30,22 +30,21 @@
     </div>
     <section class="menu_fonctionnement">
       <h2>Fonctionnement</h2>
-      <div class="menu_etape">
-        <p>1</p>
+      <div class="menu_etape" data-order="1">
         <div class="menu">
         <i class="fas fa-mobile-alt fa-lg"></i>
         <h3>Choisissez un restaurant</h3>
         </div>
       </div>
-      <div class="menu_etape">
-        <p>2</p>
+      <div class="menu_etape" data-order="2">
+ 
         <div class="menu">
         <i class="fas fa-list-ul fa-lg"></i>
         <h3>Composez votre menu</h3>
         </div>
       </div>
-      <div class="menu_etape">
-        <p>3</p>
+      <div class="menu_etape" data-order="3">
+
         <div class="menu_3">
         <i class="fas fa-store fa-lg"></i>
         <h3>Dégustez au restaurant</h3>
@@ -60,9 +59,11 @@
           src="images/lapalettedugout.jpg"
           alt="La palette du goût restaurant"
         />
-        <p>La palette du goût</p>
+        <div class="titre_coeur">
+        <h3>La palette du goût</h3>
+        <i class="far fa-heart fa-lg"></i>
+      </div>
         <p>Ménilmontant</p>
-        <i class="far fa-heart"></i>
       </div>
 
       <div class="restaurants_carte">
@@ -70,16 +71,20 @@
           src="images/lanoteenchanté.jpg"
           alt="La note enchantée restaurant"
         />
-        <p>La note enchantée</p>
+        <div class="titre_coeur">
+        <h3>La note enchantée</h3>
+        <i class="far fa-heart fa-lg"></i>
+        </div>
         <p>Charonne</p>
-        <i class="far fa-heart"></i>
       </div>
 
       <div class="restaurants_carte">
         <img src="images/alafrancaise.jpg" alt="A la française restaurant" />
-        <p>A la française</p>
+        <div class="titre_coeur">
+        <h3>A la française</h3>
+        <i class="far fa-heart fa-lg"></i>
+        </div>
         <p>Cité Rouge</p>
-        <i class="far fa-heart"></i>
       </div>
 
       <div class="restaurants_carte">
@@ -87,16 +92,22 @@
           src="images/ledelicedessens.jpg"
           alt="Le délice des sens restaurant"
         />
-        <p>Le délice des sens</p>
+        <div class="titre_coeur">
+        <h3>Le délice des sens</h3>
+        <i class="far fa-heart fa-lg"></i>
+        </div>
         <p>Folie-Méricourt</p>
-        <i class="far fa-heart"></i>
       </div>
     </section>
 
     <footer>
-      <img src="images/ohmyfood.png" alt="Logo Ohmyfood" />
-      <i class="fas fa-utensils">Proposer un restaurant</i>
-      <i class="fas fa-hands-helping">Devenir partenaire</i>
+      <h4>ohmyfood</h4>
+      <div class="footer_logo_1">
+      <i class="fas fa-utensils fa-xs"></i><p>Proposer un restaurant</p>
+      </div>
+      <div class="footer_logo_2">
+      <i class="fas fa-hands-helping fa-xs"></i><p>Devenir partenaire</p>
+      </div>
       <p>Mentions légales</p>
       <p>Contact</p>
     </footer>
