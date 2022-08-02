@@ -1,0 +1,65 @@
+.photo_restaurant{
+    img{
+        width: 100%;
+        position: absolute;
+    }
+}
+.background{
+    background-color: #f6f6f6;
+    position: relative;
+    margin-top: 250px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.menu_complet{
+    padding-left: 20px;
+    padding-right: 20px;
+    h1{
+        padding-top: 10px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .titre_menu_coeur{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    i{
+        padding: 50px 30px 0px 0px;
+    }
+}
+.menu_entrees{
+    h2{
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0px;
+    }
+.entree{
+    background-color: white;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+    cursor: pointer;
+    p{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.description_prix{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+h3{
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+}
+p{
+    margin: 0px 0px 0px 0px;
+    padding: 5px 25px 10px 10px;
+}
+.prix_gras{
+    font-weight: 700;
+}
+}
