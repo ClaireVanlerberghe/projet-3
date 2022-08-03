@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>La note enchantée</title>
-    <link rel="stylesheet" type="text/css" href="style.scss" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
@@ -13,93 +13,125 @@
   </head>
   <body>
     <header>
-      <a href="index.html"><i class="fal fa-arrow-left"></i></a>
+      <a href="index.html"><i class="fas fa-arrow-left"></i></a>
       <img src="images/ohmyfood.png" alt="Logo Ohmyfood" />
     </header>
-    <img src="images/lanoteenchanté.jpg" alt="La note enchantée" />
-
-    <section class="menu">
-      <h1>La note enchantée</h1>
-      <i class="far fa-heart"></i>
-
-      <div class="menu_entrees">
-        <h2>ENTREES</h2>
-
-        <div class="entree_1">
-          <h3>Ravioles de foie gras</h3>
-          <p>Accompagnés de leur crème à la truffe</p>
-          <p>25€</p>
+    <div class="photo_restaurant">
+      <img src="images/lanoteenchanté.jpg" alt="La note enchantée" />
+    </div>
+    <div class="background">
+      <section class="menu_complet">
+        <div class="titre_menu_coeur">
+          <h1>La note enchantée</h1>
+          <i class="far fa-heart fa-lg"></i>
         </div>
 
-        <div class="entree_2">
-          <h3>Caviar osciètre</h3>
-          <p>Sur blini à la farine de blé noir</p>
-          <p>35€</p>
-        </div>
+        <div class="menu_entrees">
+          <h2>ENTREES</h2>
 
-        <div class="entree_3">
-          <h3>Homard et espuma de...</h3>
-          <p>Mariné aux zest d'orange</p>
-          <p>20€</p>
-        </div>
-
-        <div class="entree_4">
-            <h3>Foie gras de canard cuit entier</h3>
-            <p>Confiture de figue et pain toasté</p>
-            <p>35€</p>
+          <div class="entree">
+            <h3>Ravioles de foie gras</h3>
+            <div class="description_prix">
+              <p>Accompagnés de leur crème à la truffe</p>
+              <p class="prix_gras">25€</p>
+            </div>
           </div>
 
-      </div>
+          <div class="entree">
+            <h3>Caviar osciètre</h3>
+            <div class="description_prix">
+              <p>Sur blini à la farine de blé noir</p>
+              <p class="prix_gras">35€</p>
+            </div>
+          </div>
 
-      <div class="menu_plats">
-        <h2>PLATS</h2>
+          <div class="entree">
+            <h3>Homard et espuma de...</h3>
+            <div class="description_prix">
+              <p>Mariné aux zests d'orange</p>
+              <p class="prix_gras">20€</p>
+            </div>
+          </div>
 
-        <div class="plat_1">
-          <h3>Noix de coquilles Saint-Jacques</h3>
-          <p>Sur le lit de purée de céleri-rave</p>
-          <p>40€</p>
+          <div class="entree">
+            <h3>Foie gras de canard cuit entier</h3>
+            <div class="description_prix">
+              <p>Confiture de figue et pain toasté</p>
+              <p class="prix_gras">20€</p>
+            </div>
+          </div>
         </div>
 
-        <div class="plat_2">
-          <h3>Langoustine poêlée</h3>
-          <p>Purée de patate douce</p>
-          <p>35€</p>
+        <div class="menu_plats">
+          <h2>PLATS</h2>
+
+          <div class="plat">
+            <h3>Noix de coquilles Saint-Jacques</h3>
+            <div class="description_prix">
+              <p>Sur lit de purée de céleri-rave</p>
+              <p class="prix_gras">40€</p>
+            </div>
+          </div>
+
+          <div class="plat">
+            <h3>Langoustine poêlée</h3>
+            <div class="description_prix">
+              <p>Purée de patate douce</p>
+              <p class="prix_gras">35€</p>
+            </div>
+          </div>
+
+          <div class="plat">
+            <h3>Mijoté de queue de boeuf</h3>
+            <div class="description_prix">
+              <p>Et riz sauvage aux zest de citron</p>
+              <p class="prix_gras">44€</p>
+            </div>
+          </div>
         </div>
 
-        <div class="plat_3">
-          <h3>Mijoté de queue de boeuf</h3>
-          <p>Et riz sauvage aux zest de citron</p>
-          <p>44€</p>
-        </div>
-      </div>
+        <div class="menu_desserts">
+          <h2>DESSERTS</h2>
 
-      <div class="menu_desserts">
-        <h2>DESSERTS</h2>
+          <div class="dessert">
+            <h3>Macaron noisette et chocolat</h3>
+            <div class="description_prix">
+              <p>Glace au caramel brun et sel de Guérande</p>
+              <p class="prix_gras">18€</p>
+            </div>
+          </div>
 
-        <div class="dessert_1">
-          <h3>Macaron noisette et chocolat</h3>
-          <p>Glace au caramel brun et sel de Guérande</p>
-          <p>18€</p>
+          <div class="dessert">
+            <h3>Baba au rhum revisité</h3>
+            <div class="description_prix">
+              <p>Avec son coulis de citron</p>
+              <p class="prix_gras">22€</p>
+            </div>
+          </div>
+
+          <div class="dessert">
+            <h3>Tarte au citron meringuée</h3>
+            <div class="description_prix">
+              <p>Destructurée</p>
+              <p class="prix_gras">23€</p>
+            </div>
+          </div>
         </div>
 
-        <div class="dessert_2">
-          <h3>Baba au rhum revisité</h3>
-          <p>Avec son coulis de citron</p>
-          <p>22€</p>
-        </div>
+        <button class="btn_restaurants_page">Commander</button>
+      </section>
+    </div>
 
-        <div class="dessert_3">
-          <h3>Tarte au citron meringuée</h3>
-          <p>Destructurée</p>
-          <p>23€</p>
-        </div>
-      </div>
-      <button>Commander</button>
-    </section>
     <footer>
-      <img src="images/ohmyfood.png" alt="Logo Ohmyfood" />
-      <i class="fas fa-utensils">Proposer un restaurant</i>
-      <i class="fas fa-hands-helping">Devenir partenaire</i>
+      <h4>ohmyfood</h4>
+      <div class="footer_logo_1">
+        <i class="fas fa-utensils fa-xs"></i>
+        <p>Proposer un restaurant</p>
+      </div>
+      <div class="footer_logo_2">
+        <i class="fas fa-hands-helping fa-xs"></i>
+        <p>Devenir partenaire</p>
+      </div>
       <p>Mentions légales</p>
       <p>Contact</p>
     </footer>

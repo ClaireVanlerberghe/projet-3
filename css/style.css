@@ -22,6 +22,21 @@ h4 {
   background: linear-gradient(to left top, #9356DC, #FF79DA);
   color: white;
   box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+  cursor: pointer;
+}
+
+.btn_restaurants_page {
+  margin: 55px 0px 20px 85px;
+  padding: 18px 50px 18px 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  background: linear-gradient(to left top, #9356DC, #FF79DA);
+  color: white;
+  box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+  cursor: pointer;
 }
 
 body {
@@ -68,6 +83,7 @@ footer i {
 footer p {
   color: white;
   margin: 10px 0px 0px 0px;
+  cursor: pointer;
 }
 
 header {
@@ -160,6 +176,7 @@ header i {
   margin-top: 10px;
   padding: 30px 0px 30px 40px;
   box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+  cursor: pointer;
 }
 .menu_fonctionnement .menu_3 {
   display: flex;
@@ -169,6 +186,7 @@ header i {
   margin-top: 10px;
   padding: 30px 0px 30px 40px;
   box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+  cursor: pointer;
 }
 .menu_fonctionnement .menu_3 i {
   color: #9356dc;
@@ -184,11 +202,16 @@ header i {
   margin: 0px 0px 0px 20px;
   padding: 60px 0px 30px 0px;
 }
+.restaurants_menu a {
+  text-decoration: none;
+  color: black;
+}
 .restaurants_menu .restaurants_carte {
   background-color: white;
   margin: 0px 20px 20px 20px;
   border-radius: 20px;
   box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+  cursor: pointer;
 }
 .restaurants_menu .restaurants_carte img {
   width: 100%;
@@ -210,6 +233,7 @@ header i {
 .restaurants_menu .restaurants_carte p {
   margin: 0px 0px 15px 15px;
   font-size: 18px;
+  padding-bottom: 10px;
 }
 .restaurants_menu .restaurants_carte i {
   margin: 30px 20px 0px 0px;
@@ -276,6 +300,72 @@ header i {
   padding: 5px 25px 10px 10px;
 }
 .menu_entrees .prix_gras {
+  font-weight: 700;
+}
+
+.menu_plats h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px;
+}
+.menu_plats .plat {
+  background-color: white;
+  margin-bottom: 12px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+  cursor: pointer;
+}
+.menu_plats .plat p {
+  display: flex;
+  flex-direction: row;
+}
+.menu_plats .description_prix {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu_plats h3 {
+  margin: 20px 0px 0px 0px;
+  padding: 10px 0px 0px 10px;
+}
+.menu_plats p {
+  margin: 0px 0px 0px 0px;
+  padding: 5px 25px 10px 10px;
+}
+.menu_plats .prix_gras {
+  font-weight: 700;
+}
+
+.menu_desserts h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px;
+}
+.menu_desserts .dessert {
+  background-color: white;
+  margin-bottom: 12px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+  cursor: pointer;
+}
+.menu_desserts .dessert p {
+  display: flex;
+  flex-direction: row;
+}
+.menu_desserts .description_prix {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu_desserts h3 {
+  margin: 20px 0px 0px 0px;
+  padding: 10px 0px 0px 10px;
+}
+.menu_desserts p {
+  margin: 0px 0px 0px 0px;
+  padding: 5px 25px 10px 10px;
+}
+.menu_desserts .prix_gras {
   font-weight: 700;
 }
 
