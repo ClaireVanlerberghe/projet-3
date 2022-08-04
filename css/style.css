@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 body {
@@ -54,6 +55,11 @@ footer h4 {
   font-size: 18px;
   font-weight: 300;
 }
+@media (min-width: 791px) {
+  footer h4 {
+    font-size: 30px;
+  }
+}
 footer .footer_logo_1 {
   display: flex;
   flex-direction: row;
@@ -85,6 +91,11 @@ footer p {
   margin: 10px 0px 0px 0px;
   cursor: pointer;
 }
+@media (min-width: 791px) {
+  footer .footer_partie2 {
+    padding-left: 25px;
+  }
+}
 
 header {
   display: flex;
@@ -115,19 +126,57 @@ header i {
   font-weight: 500;
   padding-left: 19px;
 }
+@media (min-width: 791px) {
+  .localisation p {
+    font-size: 22px;
+  }
+}
 .localisation i {
-  padding-top: 3px;
+  padding-top: 5px;
+}
+
+@media (min-width: 517px) and (max-width: 790px) {
+  .responsive {
+    display: flex;
+  }
+}
+@media (min-width: 791px) {
+  .responsive {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .description_ohmyfood {
   background-color: #f6f6f6;
   text-align: center;
 }
+@media (min-width: 517px) and (max-width: 790px) {
+  .description_ohmyfood {
+    width: 50%;
+  }
+}
+@media (min-width: 791px) {
+  .description_ohmyfood {
+    width: 60%;
+  }
+}
 .description_ohmyfood h1 {
   margin: 0px;
   font-size: 28px;
   font-weight: 700;
   padding: 45px 40px 10px 40px;
+}
+@media (min-width: 517px) and (max-width: 790px) {
+  .description_ohmyfood h1 {
+    padding: 75px 0px 0px 0px;
+    white-space: wrap;
+  }
+}
+@media (min-width: 791px) {
+  .description_ohmyfood h1 {
+    padding-top: 90px;
+  }
 }
 .description_ohmyfood p {
   margin: 0px;
@@ -136,7 +185,28 @@ header i {
   padding-right: 10px;
   padding: 5px 10px 30px 10px;
 }
+@media (min-width: 517px) and (max-width: 790px) {
+  .description_ohmyfood p {
+    padding: 50px 0px 55px 0px;
+  }
+}
+@media (min-width: 791px) {
+  .description_ohmyfood p {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 
+@media (min-width: 517px) and (max-width: 790px) {
+  .menu_fonctionnement {
+    width: 50%;
+  }
+}
+@media (min-width: 791px) {
+  .menu_fonctionnement {
+    width: 40%;
+  }
+}
 .menu_fonctionnement h2 {
   margin: 45px 0px 25px 20px;
 }
@@ -163,10 +233,20 @@ header i {
   color: #7e7e7e;
   padding: 2px 25px 0px 0px;
 }
+@media (min-width: 791px) {
+  .menu_fonctionnement i {
+    padding-left: 25px;
+  }
+}
 .menu_fonctionnement h3 {
   font-weight: 500;
   font-size: 18px;
   margin: 0px;
+}
+@media (min-width: 791px) {
+  .menu_fonctionnement h3 {
+    padding-left: 25px;
+  }
 }
 .menu_fonctionnement .menu {
   display: flex;
@@ -198,6 +278,31 @@ header i {
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 791px) {
+  .restaurants_menu .responsive_ordi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (min-width: 517px) and (max-width: 790px) {
+  .restaurants_menu .restaurant_rangé1 {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 517px) and (max-width: 790px) {
+  .restaurants_menu .restaurant_rangé2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .restaurants_menu .restaurant_rangé2 .alafrancaise_carte {
+    width: 50%;
+  }
+  .restaurants_menu .restaurant_rangé2 .ledelicedessens_carte {
+    width: 50%;
+  }
+}
 .restaurants_menu h2 {
   margin: 0px 0px 0px 20px;
   padding: 60px 0px 30px 0px;
@@ -212,6 +317,11 @@ header i {
   border-radius: 20px;
   box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
   cursor: pointer;
+}
+@media (min-width: 791px) {
+  .restaurants_menu .restaurants_carte {
+    width: 700px;
+  }
 }
 .restaurants_menu .restaurants_carte img {
   width: 100%;
