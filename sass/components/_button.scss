@@ -22,4 +22,10 @@ background: linear-gradient(to left top, #9356DC , #FF79DA);;
 color: white;
 box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
 cursor: pointer;
+@media (min-width: 517px) and (max-width: 790px) {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 0px;
+}
 }
