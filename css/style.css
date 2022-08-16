@@ -328,7 +328,7 @@ header i {
 }
 @media (min-width: 791px) {
   .restaurants_menu .restaurants_carte {
-    width: 700px;
+    width: 450px;
   }
 }
 .restaurants_menu .restaurants_carte img {
