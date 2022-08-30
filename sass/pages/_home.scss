@@ -146,14 +146,14 @@ display: flex;
 
       }
     }
-    .restaurant_rangé1{
+    .restaurant_range1{
     @media (min-width: 517px) and (max-width: 790px){
 display: flex;
 flex-direction: row;
     }
 
   }
-.restaurant_rangé2{
+.restaurant_range2{
   @media (min-width: 517px) and (max-width: 790px){
     display: flex;
     flex-direction: row;
@@ -183,6 +183,9 @@ flex-direction: row;
       cursor: pointer;
       @media (min-width: 791px) {
         width: 450px;
+      }
+      @media (min-width: 517px) and (max-width: 890px){
+        width: 90%;
       }
     img{
       width: 100%;
