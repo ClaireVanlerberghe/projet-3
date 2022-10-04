@@ -1,84 +1,82 @@
 .localisation {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #eaeaea;
-    padding: 18px 0px 18px 0px;
-    p {
-      margin: 0px;
-      font-size: 17px;
-      font-weight: 500;
-      padding-left: 19px;
-      @media (min-width: 791px) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #eaeaea;
+  padding: 18px 0px 18px 0px;
+  p {
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 19px;
+    @media (min-width: 791px) {
       font-size: 22px;
-      }
-    }
-    i{
-      padding-top: 5px;
-
     }
   }
-  .responsive{
-    @media (min-width: 517px) and (max-width: 790px){
-display: flex;
-    }
-    @media (min-width: 791px) {
-      display: flex;
-      flex-direction: row;
-    }
-      
-    }
-  .description_ohmyfood{
-    background-color: #f6f6f6;
-    text-align: center;
-    @media (min-width: 517px) and (max-width: 790px){
-     width: 50%; 
-    }
-    @media (min-width: 791px) {
-      width: 60%;
-    }
-    h1{
-        margin: 0px;
-        font-size: 28px;
-        font-weight: 700;
-        padding: 45px 40px 10px 40px;
-        @media (min-width: 517px) and (max-width: 790px){
-      padding: 75px 0px 0px 0px;
-      white-space: wrap;
-        }
-        @media (min-width: 791px) {
-      padding-top: 90px;
-        }
-    }
-    p{
-        margin: 0px;
-        font-size: 19px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding: 5px 10px 30px 10px;
-        @media (min-width: 517px) and (max-width: 790px){
-      padding: 50px 0px 55px 0px;
-        }
-        @media (min-width: 791px) {
-      padding-top: 50px;
-      padding-bottom: 50px;
-        }
-    }
+  i {
+    padding-top: 5px;
+  }
 }
-.menu_fonctionnement{
-  @media (min-width: 517px) and (max-width: 790px){
-      width: 50%;
+.responsive {
+  @media (min-width: 517px) and (max-width: 790px) {
+    display: flex;
   }
   @media (min-width: 791px) {
-      width: 40%;
+    display: flex;
+    flex-direction: row;
   }
-  h2{
+}
+.description_ohmyfood {
+  background-color: #f6f6f6;
+  text-align: center;
+  @media (min-width: 517px) and (max-width: 790px) {
+    width: 50%;
+  }
+  @media (min-width: 791px) {
+    width: 60%;
+  }
+  h1 {
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 45px 40px 10px 40px;
+    @media (min-width: 517px) and (max-width: 790px) {
+      padding: 75px 0px 0px 0px;
+      white-space: wrap;
+    }
+    @media (min-width: 791px) {
+      padding-top: 90px;
+    }
+  }
+  p {
+    margin: 0px;
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 5px 10px 30px 10px;
+    @media (min-width: 517px) and (max-width: 790px) {
+      padding: 50px 0px 55px 0px;
+    }
+    @media (min-width: 791px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+}
+.menu_fonctionnement {
+  @media (min-width: 517px) and (max-width: 790px) {
+    width: 50%;
+  }
+  @media (min-width: 791px) {
+    width: 40%;
+  }
+  h2 {
     margin: 45px 0px 25px 20px;
   }
-  .menu_etape{
+  .menu_etape {
     margin: 20px 22px 25px 25px;
     position: relative;
-    &::before{
+    &::before {
       content: attr(data-order);
       display: flex;
       justify-content: center;
@@ -86,7 +84,7 @@ display: flex;
       position: absolute;
       top: calc(50% - 12px);
       left: -11px;
-      background-color: #9356DC;
+      background-color: #9356dc;
       border-radius: 50px;
       color: white;
       font-size: 13px;
@@ -94,22 +92,22 @@ display: flex;
       height: 25px;
     }
   }
-  i{
-    color: #7e7e7e; 
+  i {
+    color: #7e7e7e;
     padding: 2px 25px 0px 0px;
     @media (min-width: 791px) {
       padding-left: 25px;
     }
   }
-  h3{
+  h3 {
     font-weight: 500;
     font-size: 18px;
     margin: 0px;
     @media (min-width: 791px) {
-     padding-left: 25px; 
+      padding-left: 25px;
     }
   }
-  .menu{
+  .menu {
     display: flex;
     flex-direction: row;
     background-color: #f6f6f6;
@@ -119,128 +117,134 @@ display: flex;
     box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
     cursor: pointer;
   }
-
 }
-.restaurants_menu{
-    background-color: #f6f6f6;
-    margin: 70px 0px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    .responsive_ordi{
-      @media (min-width: 791px) {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
-      }
+.restaurants_menu {
+  background-color: #f6f6f6;
+  margin: 70px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  .responsive_ordi {
+    @media (min-width: 791px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
     }
-    .restaurant_range1{
-    @media (min-width: 517px) and (max-width: 790px){
-display: flex;
-flex-direction: row;
-    }
-
   }
-.restaurant_range2{
-  @media (min-width: 517px) and (max-width: 790px){
-    display: flex;
-    flex-direction: row;
+  .restaurant_range1 {
+    @media (min-width: 517px) and (max-width: 790px) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .restaurant_range2 {
+    @media (min-width: 517px) and (max-width: 790px) {
+      display: flex;
+      flex-direction: row;
 
-    .alafrancaise_carte{
-      width: 50%;
+      .alafrancaise_carte {
+        width: 50%;
+      }
+      .ledelicedessens_carte {
+        width: 50%;
+      }
     }
-    .ledelicedessens_carte{
-      width: 50%;
-    }
-}
-}
+  }
 
-    h2{
-      margin: 0px 0px 0px 20px;
-      padding: 60px 0px 30px 0px;
-    }
-    a{
-      text-decoration: none;
-      color: black;
-    }
-    .restaurants_carte{
-      background-color: white;
-      margin: 0px 20px 20px 20px;
-      border-radius: 20px;
-      box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
-      cursor: pointer;
-    
-        
-        &:hover i{
-          animation: fill 0.3s ease-in-out;
-          display: inline-block;
-          opacity: 1;
-          background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-          background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color:transparent;
-          font-weight: bold;
-    
-          
-        
-      }
+  h2 {
+    margin: 0px 0px 0px 20px;
+    padding: 60px 0px 30px 0px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .restaurants_carte {
+    background-color: white;
+    margin: 0px 20px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+    cursor: pointer;
 
-      @media (min-width: 791px) {
-        width: 450px;
-      }
-      @media (min-width: 517px) and (max-width: 890px){
-        width: 90%;
-      }
-    img{
+    &:hover i {
+      animation: fill 0.3s ease-in-out;
+      display: inline-block;
+      opacity: 1;
+      background: linear-gradient(
+        to left,
+        #9356dc,
+        #b35cdc,
+        #cf64dc,
+        #e86edb,
+        #ff79da
+      );
+      background: -webkit-linear-gradient(
+        to left,
+        #9356dc,
+        #b35cdc,
+        #cf64dc,
+        #e86edb,
+        #ff79da
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+    }
+
+    @media (min-width: 791px) {
+      width: 450px;
+    }
+    @media (min-width: 517px) and (max-width: 890px) {
+      width: 90%;
+    }
+    img {
       width: 100%;
       height: 190px;
       object-fit: cover;
       border-top-right-radius: 20px;
       border-top-left-radius: 20px;
     }
-    .titre_coeur{
+    .titre_coeur {
       display: flex;
       flex-direction: row;
       gap: 140px;
       justify-content: space-between;
-
     }
-    h3{
+    h3 {
       margin: 10px 0px 0px 15px;
       font-size: 20px;
     }
-    p{
+    p {
       margin: 0px 0px 15px 15px;
       font-size: 18px;
       padding-bottom: 10px;
     }
-    i{
+    i {
       margin: 30px 20px 0px 0px;
-padding: 4px;
-    }
-    }
-  }
-  @keyframes fill{
-    0%{ 
-      opacity: 1;
-    }
-    50%{
-      opacity: 2;
-    }
-    60%{
-      transform: scale(0);
-    }
-    70%{
-      transform: scale(1);
-    }
-    80%{
-      transform: scale(1.1);
-    }
-    90%{
-      transform: scale(1.2);
-    }
-    100%{
-      opacity: 1;
-      transform: scale(1);
+      padding: 4px;
     }
   }
+}
+@keyframes fill {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 2;
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  90% {
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

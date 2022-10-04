@@ -1,31 +1,31 @@
-.btn_description{
-    padding: 18px 30px 18px 30px;
-    border-radius: 30px;
-    border: none;
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 60px;
-    background: linear-gradient(to left top, #9356DC , #FF79DA);;
-    color: white;
-    box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
-    cursor: pointer;
+.btn_description {
+  padding: 18px 30px 18px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  background: linear-gradient(to left top, #9356dc, #ff79da);
+  color: white;
+  box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+  cursor: pointer;
 }
-.btn_restaurants_page{
-margin: 55px 0px 20px 85px;
-padding: 18px 50px 18px 50px;
-border-radius: 30px;
-border: none;
-font-size: 16px;
-font-weight: 500;
-margin-bottom: 60px;
-background: linear-gradient(to left top, #9356DC , #FF79DA);;
-color: white;
-box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
-cursor: pointer;
-@media (min-width: 517px) and (max-width: 790px) {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-left: 0px;
-}
+.btn_restaurants_page {
+  margin: 55px 0px 20px 85px;
+  padding: 18px 50px 18px 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  background: linear-gradient(to left top, #9356dc, #ff79da);
+  color: white;
+  box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+  cursor: pointer;
+  @media (min-width: 517px) and (max-width: 790px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
 }
