@@ -23,8 +23,12 @@ h4 {
   margin-bottom: 60px;
   background: linear-gradient(to left top, #9356dc, #ff79da);
   color: white;
-  box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
+  box-shadow: 0px 6px 15px rgba(75, 75, 75, 0.307);
   cursor: pointer;
+}
+.btn_description:hover {
+  background: linear-gradient(to left top, rgba(146, 86, 220, 0.737254902), rgba(255, 121, 217, 0.8078431373));
+  box-shadow: 0px 8px 17px rgba(56, 56, 56, 0.33);
 }
 
 .btn_restaurants_page {
@@ -43,9 +47,6 @@ h4 {
 @media (min-width: 517px) and (max-width: 790px) {
   .btn_restaurants_page {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
   }
 }
 
@@ -341,6 +342,9 @@ header i {
   box-shadow: 0px 6px 15px rgba(91, 91, 91, 0.307);
   cursor: pointer;
 }
+.menu_fonctionnement .menu:hover {
+  background-color: #f5edff;
+}
 
 .restaurants_menu {
   background-color: #f6f6f6;
@@ -466,6 +470,7 @@ header i {
 
 .background {
   background-color: #f6f6f6;
+  height: 100%;
   position: relative;
   margin-top: 250px;
   border-top-left-radius: 40px;
@@ -475,6 +480,7 @@ header i {
 .menu_complet {
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 20px;
 }
 .menu_complet h1 {
   padding-top: 10px;
@@ -513,6 +519,10 @@ header i {
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  animation: affichageentree 1.5s forwards;
+}
+.menu_entrees .entree:hover .prix_gras {
+  animation: decalage 1.5s forwards;
 }
 .menu_entrees .entree:hover .check {
   animation: decalage 1.5s forwards;
@@ -581,9 +591,6 @@ p {
   font-weight: 700;
   padding-left: 100px;
 }
-.prix_gras:hover {
-  padding-right: 100px;
-}
 
 .menu_plats h2 {
   font-size: 18px;
@@ -599,6 +606,10 @@ p {
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  animation: affichageplat 1.5s forwards;
+}
+.menu_plats .plat:hover .prix_gras {
+  animation: decalage 1.5s forwards;
 }
 .menu_plats .plat:hover .check {
   animation: decalage 1.5s forwards;
@@ -675,6 +686,10 @@ p {
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  animation: affichagedessert 1.5s forwards;
+}
+.menu_desserts .dessert:hover .prix_gras {
+  animation: decalage 1.5s forwards;
 }
 .menu_desserts .dessert:hover .check {
   animation: decalage 1.5s forwards;
@@ -782,6 +797,30 @@ p {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@keyframes affichageentree {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+}
+@keyframes affichageplat {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+}
+@keyframes affichagedessert {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

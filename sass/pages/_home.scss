@@ -108,6 +108,9 @@
     }
   }
   .menu {
+    &:hover{
+      background-color: #f5edff;
+    }
     display: flex;
     flex-direction: row;
     background-color: #f6f6f6;
