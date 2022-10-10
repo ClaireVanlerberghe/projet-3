@@ -2,6 +2,7 @@
   img {
     width: 100%;
     position: absolute;
+    height: -webkit-fill-available;
   }
 }
 .background {
@@ -71,6 +72,7 @@
     overflow: hidden;
     animation: affichageentree 1.5s forwards;
     &:hover{
+     
       .prix_gras{
       animation: decalage 1.5s forwards;
       }
@@ -82,6 +84,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
         &::before {
           animation: tourne 1s forwards linear;
         }
@@ -120,6 +123,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  &:hover{
+    text-overflow: ellipsis;
+  }
 }
 .description {
   text-overflow: ellipsis;
@@ -130,11 +136,19 @@
 h3 {
   margin: 0px;
   padding: 10px 0px 0px 10px;
-
   text-overflow: ellipsis;
   display: block;
   overflow: hidden;
   white-space: nowrap;
+  max-width: 65%;
+  &:hover{
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    
+  }
+  
 }
 p {
   margin: 0px 0px 0px 0px;
@@ -375,8 +389,11 @@ p {
   0%{
       opacity: 0;
   }
-  20%{
-opacity: 1;
+  30%{
+opacity: 0.5;
+  }
+  60%{
+    opacity: 1;
   }
 }
 @keyframes affichageplat{
@@ -384,12 +401,18 @@ opacity: 1;
     opacity: 0;
   }
   60%{
+    opacity: 0.5;
+  }
+  80%{
     opacity: 1;
   }
 }
 @keyframes affichagedessert {
   0%{
     opacity: 0;
+  }
+  90%{
+    opacity: 0.5;
   }
   100%{
     opacity: 1;

@@ -133,6 +133,11 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 0px 0px 40px 20px;
+  position: relative;
+}
+footer a {
+  text-decoration: none;
+  color: white;
 }
 footer h4 {
   color: white;
@@ -466,6 +471,7 @@ header i {
 .photo_restaurant img {
   width: 100%;
   position: absolute;
+  height: -webkit-fill-available;
 }
 
 .background {
@@ -565,6 +571,9 @@ header i {
   flex-direction: row;
   justify-content: space-between;
 }
+.description_prix:hover {
+  text-overflow: ellipsis;
+}
 
 .description {
   text-overflow: ellipsis;
@@ -576,6 +585,13 @@ header i {
 h3 {
   margin: 0px;
   padding: 10px 0px 0px 10px;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 65%;
+}
+h3:hover {
   text-overflow: ellipsis;
   display: block;
   overflow: hidden;
@@ -803,7 +819,10 @@ p {
   0% {
     opacity: 0;
   }
-  20% {
+  30% {
+    opacity: 0.5;
+  }
+  60% {
     opacity: 1;
   }
 }
@@ -812,12 +831,18 @@ p {
     opacity: 0;
   }
   60% {
+    opacity: 0.5;
+  }
+  80% {
     opacity: 1;
   }
 }
 @keyframes affichagedessert {
   0% {
     opacity: 0;
+  }
+  90% {
+    opacity: 0.5;
   }
   100% {
     opacity: 1;

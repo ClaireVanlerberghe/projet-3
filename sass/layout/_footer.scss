@@ -3,8 +3,12 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 0px 0px 40px 20px;
-  
+  position: relative;
 
+  a{
+    text-decoration: none;
+    color: white;
+  }
   h4 {
     color: white;
     font-size: 18px;
