@@ -525,7 +525,7 @@ header i {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  animation: affichageentree 1.5s forwards;
+  animation: affichageentree 3s forwards;
 }
 .menu_entrees .entree:hover .prix_gras {
   animation: decalage 1.5s forwards;
@@ -584,7 +584,7 @@ header i {
 
 h3 {
   margin: 0px;
-  padding: 10px 0px 0px 10px;
+  padding: 10px 100px 0px 10px;
   text-overflow: ellipsis;
   display: block;
   overflow: hidden;
@@ -622,7 +622,7 @@ p {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  animation: affichageplat 1.5s forwards;
+  animation: affichageplat 3s forwards;
 }
 .menu_plats .plat:hover .prix_gras {
   animation: decalage 1.5s forwards;
@@ -673,9 +673,15 @@ p {
   overflow: hidden;
   white-space: nowrap;
 }
+.menu_plats .description :hover {
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+}
 .menu_plats h3 {
   margin: 0px;
-  padding: 10px 0px 0px 10px;
+  padding: 10px 100px 0px 10px;
   text-overflow: ellipsis;
   display: block;
   overflow: hidden;
@@ -687,6 +693,7 @@ p {
 }
 .menu_plats .prix_gras {
   font-weight: 700;
+  padding-left: 100px;
 }
 
 .menu_desserts h2 {
@@ -702,7 +709,7 @@ p {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  animation: affichagedessert 1.5s forwards;
+  animation: affichagedessert 3s forwards;
 }
 .menu_desserts .dessert:hover .prix_gras {
   animation: decalage 1.5s forwards;
@@ -758,7 +765,7 @@ p {
 }
 .menu_desserts h3 {
   margin: 0px;
-  padding: 10px 0px 0px 10px;
+  padding: 10px 100px 0px 10px;
   text-overflow: ellipsis;
   display: block;
   overflow: hidden;
@@ -770,6 +777,7 @@ p {
 }
 .menu_desserts .prix_gras {
   font-weight: 700;
+  padding-left: 100px;
 }
 
 @keyframes fill {
@@ -820,6 +828,9 @@ p {
     opacity: 0;
   }
   30% {
+    opacity: 0;
+  }
+  50% {
     opacity: 0.5;
   }
   60% {
@@ -828,6 +839,9 @@ p {
 }
 @keyframes affichageplat {
   0% {
+    opacity: 0;
+  }
+  50% {
     opacity: 0;
   }
   70% {
@@ -839,6 +853,9 @@ p {
 }
 @keyframes affichagedessert {
   0% {
+    opacity: 0;
+  }
+  70% {
     opacity: 0;
   }
   90% {

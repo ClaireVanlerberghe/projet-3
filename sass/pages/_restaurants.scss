@@ -70,7 +70,7 @@
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    animation: affichageentree 1.5s forwards;
+    animation: affichageentree 3s forwards;
     &:hover{
      
       .prix_gras{
@@ -135,7 +135,7 @@
 }
 h3 {
   margin: 0px;
-  padding: 10px 0px 0px 10px;
+  padding: 10px 100px 0px 10px;
   text-overflow: ellipsis;
   display: block;
   overflow: hidden;
@@ -175,7 +175,7 @@ p {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    animation: affichageplat 1.5s forwards;
+    animation: affichageplat 3s forwards;
     &:hover{
       .prix_gras{
       animation: decalage 1.5s forwards;
@@ -222,6 +222,7 @@ p {
     }
   }
   .description_prix {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -231,10 +232,16 @@ p {
     display: block;
     overflow: hidden;
     white-space: nowrap;
+    :hover{
+      text-overflow: ellipsis;
+      display: block;
+      overflow: hidden;
+      white-space: nowrap;
+    }
   }
   h3 {
     margin: 0px;
-    padding: 10px 0px 0px 10px;
+    padding: 10px 100px 0px 10px;
 
     text-overflow: ellipsis;
     display: block;
@@ -247,6 +254,7 @@ p {
   }
   .prix_gras {
     font-weight: 700;
+    padding-left: 100px;
   }
 }
 .menu_desserts {
@@ -263,7 +271,7 @@ p {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    animation: affichagedessert 1.5s forwards;
+    animation: affichagedessert 3s forwards;
     &:hover{
       .prix_gras{
       animation: decalage 1.5s forwards;
@@ -276,6 +284,7 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+        
         &::before {
           animation: tourne 1s forwards linear;
         }
@@ -326,7 +335,7 @@ p {
 
   h3 {
     margin: 0px;
-    padding: 10px 0px 0px 10px;
+    padding: 10px 100px 0px 10px;
     text-overflow: ellipsis;
     display: block;
     overflow: hidden;
@@ -338,6 +347,7 @@ p {
   }
   .prix_gras {
     font-weight: 700;
+    padding-left: 100px;
   }
 }
 @keyframes fill {
@@ -390,7 +400,10 @@ p {
       opacity: 0;
   }
   30%{
-opacity: 0.5;
+opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
   }
   60%{
     opacity: 1;
@@ -398,6 +411,9 @@ opacity: 0.5;
 }
 @keyframes affichageplat{
   0%{
+    opacity: 0;
+  }
+  50%{
     opacity: 0;
   }
   70%{
@@ -409,6 +425,9 @@ opacity: 0.5;
 }
 @keyframes affichagedessert {
   0%{
+    opacity: 0;
+  }
+  70%{
     opacity: 0;
   }
   90%{
